@@ -66,6 +66,11 @@ Clean:
 make fclean
 ```
 
+Rebuild:
+
+```bash
+make re
+```
 ---
 
 ## 🕹️ **Controls**
