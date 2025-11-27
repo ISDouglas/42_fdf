@@ -1,6 +1,7 @@
 
 # FdF — Wireframe Model (42 School)
 
+![Description of GIF](./gif_fdf/France-fdf_3.gif)
 A lightweight 3D wireframe renderer built with **MiniLibX**, capable of displaying and manipulating 3D landscapes based on elevation maps.
 This project introduces the fundamentals of computer graphics: projecting points in space, connecting them, and rendering them from a chosen viewpoint.
 
