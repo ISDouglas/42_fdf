@@ -6,7 +6,7 @@
 /*   By: layang <layang@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/24 09:00:58 by layang            #+#    #+#             */
-/*   Updated: 2025/03/10 11:13:27 by layang           ###   ########.fr       */
+/*   Updated: 2025/11/27 07:36:50 by layang           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,12 +76,9 @@ int	build_mlx_win(t_vars	*all, char	*name)
 
 static int	start_win_img(t_vars	*all, char	*name)
 {
-	t_img	*img_all;
-
 	if (build_mlx_win(all, name) == -1)
 		return (-1);
 	all->img.mlx_img = mlx_new_image(all->mlx, WIDTH, HEIGHT);
-	img_all = (t_img *)all->img.mlx_img;
 	if (!all->img.mlx_img)
 	{
 		ft_putstr_fd("FDF: Error initializing image.\n", 2);
