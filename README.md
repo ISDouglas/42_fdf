@@ -4,7 +4,7 @@
 
 A lightweight 3D wireframe renderer built with **MiniLibX**, capable of displaying and manipulating 3D landscapes based on elevation maps.
 This project introduces the fundamentals of computer graphics: projecting points in space, connecting them, and rendering them from a chosen viewpoint.
-![France-fdf-2](https://github.com/user-attachments/assets/4472fdf5-2670-4a32-8adc-5d3360c6f2da)
+
 
 ---
 
@@ -54,7 +54,7 @@ Using **MiniLibX**, this project demonstrates:
 Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:ISDouglas/42_fdf.git
 cd fdf
 ```
 
